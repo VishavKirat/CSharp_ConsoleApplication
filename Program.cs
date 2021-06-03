@@ -1,11 +1,10 @@
-﻿using System; // This is how we declare a namespace > holds classes, enums, delegates or othet namespaces.
+﻿using System;
 
-class Program  // "Program" is a class name which holds data and methods
+class day3
 {
     static void Main()
     {
-        Console.WriteLine($"Byte size: \n \tMaxValue: {byte.MaxValue} & MinValue: {byte.MinValue} \n \n");
-        Console.WriteLine($"Int Size: \n \tMaxValue:{int.MaxValue} & MinValue: {int.MinValue}");
-        Console.WriteLine($"Float size: \n \tMaxValue:{float.MaxValue} & MinValue: {float.MinValue}");
+        string name = "Enter your name";
+        Console.WriteLine(name);
     }
 }
